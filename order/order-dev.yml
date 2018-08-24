@@ -1,7 +1,6 @@
 spring:
   application:
     name: order
-  # 这里数据库一般在生产环境上不同服务
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: devname
@@ -13,8 +12,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-#-Dserver.port=8081
-#server:
-#  port: 8081
 env: 
   dev
