@@ -16,3 +16,5 @@ eureka:
 #-Dserver.port=8081
 #server:
 #  port: 8081
+env: 
+  test
